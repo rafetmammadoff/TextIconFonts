@@ -1,0 +1,71 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Roboto;
+}
+
+.cv {
+  width: 69%;
+}
+
+.cv .img-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cv .img-area img {
+  background-color: #b2b2b2;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.cv h1 {
+  font-size: 70px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.cv h4 {
+  font-size: 35px;
+}
+
+.cv .work-education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+}
+
+.cv .work-education .work-area {
+  padding: 0 10px;
+  border-left: 2px dashed black;
+  width: 60%;
+}
+
+.cv .work-education .work-area .component h2 {
+  color: blue;
+}
+
+.cv .work-education .work-area .component .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cv .work-education .education {
+  width: 40%;
+}
+/*# sourceMappingURL=style.css.map */
